@@ -18,7 +18,7 @@
     "node": "^20.6.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Mendu Yashwanth Ram Naidu",
   "license": "ISC"
