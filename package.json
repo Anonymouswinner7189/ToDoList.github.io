@@ -2,6 +2,10 @@
   "engines": {
     "node": "^20.6.0"
   },
+  "name": "todolist",
+  "description": "This is a To Do List made with node , express and ejs . (also without passion)",
+  "version": "1.0.0",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
@@ -13,14 +17,9 @@
     "mongoose": "^7.5.1",
     "node": "^20.6.0"
   },
-  "name": "todolist",
-  "description": "This is a To Do List made with node , express and ejs . (also without passion)",
-  "version": "1.0.0",
-  "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mendu Yashwanth Ram Naidu",
   "license": "ISC"
 }
