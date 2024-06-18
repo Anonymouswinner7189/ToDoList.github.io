@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.set("view engine","ejs");
 
-mongoose.connect("mongodb+srv://anonymous7189:9618234775Ab@atlascluster.rjsngui.mongodb.net/toDoListDB",{useNewUrlParser : true});
+mongoose.connect("mongodb+srv://anonymous7189:{key}@atlascluster.rjsngui.mongodb.net/toDoListDB",{useNewUrlParser : true});
 
 const itemsSchema = {
     name : String
